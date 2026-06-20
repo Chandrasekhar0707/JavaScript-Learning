@@ -1,0 +1,19 @@
+Create a business name generator by combining list of adjectives and printing them it to the console.
+
+Adjectives :
+~~~~~~~~~~~~
+Crazy
+Amazing
+Fire
+
+Shop Name :
+~~~~~~~~~~~~~
+Engine 
+Foods
+Garments
+
+Another Word :
+~~~~~~~~~~~~~
+Bros
+Limited
+Hub
