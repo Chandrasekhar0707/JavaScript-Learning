@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            height: 50vh;
+            width: 50vw;
+            border: 2px solid black;
+        }
+
+        .box {
+            height: 40px;
+            /* width: 40px; */
+            border: 2px solid black;
+            margin: 20px;
+        }
+
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container" style="display: flex;" data-createdby = "Chandra" data-conceptedby="Rohan"> -->
+    <div class="container red bg-green hello" >
+        <div class="box">Hy I am a box</div>
+        <div class="box">Hy I am a box</div>
+    </div>
+
+    <script>
+
+        // Insertion Method
+
+
+        // let div = document.createElement("div");
+        // div.innerHTML = "<br> I have been inserted <b> hello doston </b>"
+        // div.setAttribute("class", "created");
+
+        // document.querySelector(".container").append(div)  // at the end of the end
+        // document.querySelector(".container").prepend(div)  // at the begning of the node
+        // document.querySelector(".container").before(div)  // insert before the node
+        // document.querySelector(".container").after(div)  // insert after the node
+        // document.querySelector(".container").replaceWith(div)  // Replace node with the given node
+
+        // INSERT ADJACENT METHOD
+
+        let cont = document.querySelector(".container")
+        cont.insertAdjacentHTML("afterend", "<h1> Hello i am a inocent Boy </h1>")  // insert HTML at the end of the div
+        cont.insertAdjacentHTML("afterbegin", "<h1> Hello i am a inocent Boy </h1>")  // insert HTML in the first line of the div
+        cont.insertAdjacentHTML("beforeend", "<h1> Hello i am a inocent Boy </h1>")  // insert HTML in the last line of the div
+        cont.insertAdjacentHTML("beforebegin", "<h1> Hello i am a inocent Boy </h1>")  // insert HTML before starting the div
+
+    </script>
+</body>
+</html>
